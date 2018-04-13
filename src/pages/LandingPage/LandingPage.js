@@ -28,6 +28,8 @@ const LandingPage = (props, context) => {
           <br />
           <br />
             <b><a href="mailto:fredrik@dualog.com?subject=Dualog%20Summer%20internship%202018%20-%20YOUR_NAME"> APPLY NOW! </a></b>
+          <br />
+          <b>(Deadline end of April)</b>
           </div>
           <SocialIcons />
         </div>
