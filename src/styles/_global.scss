@@ -4,8 +4,8 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 100;
-	src: local('Poppins Thin'), local('Roboto-Thin'),
-	url('../libs/fonts/roboto-100.woff2') format('woff2');
+	src: local('Poppins Light'), local('Poppins-Light'),
+	url('../libs/fonts/Poppins-Regular.ttf') format('ttf');
 }
 
 @font-face {
@@ -32,15 +32,6 @@
 	url('../libs/fonts/Poppins-Regular.ttf') format('ttf');
 }
 
-/* reem-kufi-regular - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Poppins Regular'), local('ReemKufi-Regular'),
-	url('../libs/fonts/Poppins-Regular.ttf') format('ttf');
-}
-
 html {
 	font-size: 12px;
 
@@ -62,7 +53,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 }
 

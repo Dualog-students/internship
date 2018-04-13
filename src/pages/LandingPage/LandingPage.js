@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SocialIcons from '@components/SocialIcons';
 import Nav from '@components/Nav';
-import BrowserNotes from '@components/BrowserNotes';
 
 import './style.scss';
 
@@ -13,7 +12,6 @@ const LandingPage = (props, context) => {
     <div style={{ backgroundColor: bgPrimary }} className="landing-page">
       <Nav />
       <main style={{ color: colorPrimary }}>
-        <BrowserNotes />
         <div className="intro-wrapper">
           <div className="intro-name">Dualog is looking for summer interns!</div>
           <div className="tagline">
