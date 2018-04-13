@@ -49,7 +49,9 @@ class Nav extends Component {
       : { backgroundColor: bgPrimary, color: colorPrimary };
     return (
       <nav className={stickyClass} ref={(elem) => { this.nav = elem; }} style={stickyStyles}>
-        <div className="menu" />
+        <div className="menu">
+
+        </div>
       </nav>
     );
   }

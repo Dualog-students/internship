@@ -16,20 +16,19 @@ const LandingPage = (props, context) => {
           <div className="intro-name">Dualog is looking for summer interns!</div>
           <div className="tagline">
           <p><b>Who are you?</b></p>
-          An IT student with a passion for developing software.
-          <br />
+          <p>An IT student with a passion for developing software.</p>
           <br />
           <p><b> Who are we?</b></p>
-          A global company that delivers software to the maritime industry.
-          <br />
+          <p>A global company that delivers software to the maritime industry.</p>
           <br />
           <p><b> What to do?</b></p>
-          Arrange a hackathon, then develop an idea based on it.
-          <br />
+          <p>Arrange a hackathon, then develop an idea based on it.</p>
           <br />
             <b><a href="mailto:fredrik@dualog.com?subject=Dualog%20Summer%20internship%202018%20-%20YOUR_NAME"> APPLY NOW! </a></b>
           <br />
-          <b>(Deadline end of April)</b>
+          <p> June 15 - August 15 </p>
+          <br />
+          (Deadline end of April)
           </div>
           <SocialIcons />
         </div>
